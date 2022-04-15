@@ -2,9 +2,7 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-
-func LongestWord(_ sen: String) -> String {
+func longestWord(_ sen: String) -> String {
   // steps plan:
   // - setup longestWord, wordCandidate (word)
   // - iterate through each char
